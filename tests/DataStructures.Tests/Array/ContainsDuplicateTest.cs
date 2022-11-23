@@ -10,7 +10,7 @@ public class ContainsDuplicateTest
     [InlineData(new [] { 1, 2, 2 }, true)]
     public void Verify_Test(int[] array, bool expected)
     {
-        var result = ContainsDuplicate.Verify(array);
+        var result = ContainsDuplicate.VerifyHashTable(array);
         
         Assert.Equal(expected, result);
     }
@@ -20,7 +20,7 @@ public class ContainsDuplicateTest
     [InlineData(new [] { 1, 2, 2 }, true)]
     public void VerifyWithLinq_Test(int[] array, bool expected)
     {
-        var result = ContainsDuplicate.VerifyWithLinq(array);
+        var result = ContainsDuplicate.VerifyLinq(array);
         
         Assert.Equal(expected, result);
     }

@@ -2,7 +2,7 @@
 
 public static class ContainsDuplicate
 {
-    public static bool Verify(IEnumerable<int> array)
+    public static bool VerifyHashTable(IEnumerable<int> array)
     {
         var hashSet = new HashSet<int>();
         foreach (var item in array)
@@ -18,7 +18,7 @@ public static class ContainsDuplicate
         return false;
     }
 
-    public static bool VerifyWithLinq(int[] array)
+    public static bool VerifyLinq(int[] array)
     {
         var distinctCount = array.Distinct().Count();
         return distinctCount != array.Length;
