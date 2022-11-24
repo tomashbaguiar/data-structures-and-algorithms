@@ -1,6 +1,6 @@
 namespace DataStructures.Array;
 
-public static class MaxSubArray
+public static class MaxSubarray
 {
     public static int ResolveDivideAndConquer(int[] array)
     {

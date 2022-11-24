@@ -1,8 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4c2014da_002D2f33_002D4252_002D90fd_002Dbb544df5c73a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ContainsDuplicateTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">/home/tomas/.cache/JetBrains/Rider2022.2/resharper-host/temp/Rider/vAny/CoverageData/_DataStructuresAndAlgorithms.-1213886584/Snapshot/snapshot.utdcvr</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=57452f1b_002D0deb_002D48fe_002D91ef_002D101ad644fdd8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TwoSumHashTable_Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.ContainsDuplicateTest&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.MaxSubArrayTest.Resolve_Test&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.MaxSubArrayTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.TwoSumTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.MergeSortedArraysTest.MergeBruteForce_Test&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.MergeSortedArraysTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

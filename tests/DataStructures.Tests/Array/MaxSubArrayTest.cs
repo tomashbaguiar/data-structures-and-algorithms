@@ -12,7 +12,7 @@ public class MaxSubArrayTest
     [InlineData(new [] { 1 }, 1)]
     public void Resolve_Test(int[] array, int expected)
     {
-        var result = MaxSubArray.ResolveDivideAndConquer(array);
+        var result = MaxSubarray.ResolveDivideAndConquer(array);
         
         Assert.Equal(expected, result);
     }
