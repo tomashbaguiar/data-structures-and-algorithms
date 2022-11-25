@@ -2,14 +2,5 @@
 	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">/home/tomas/.cache/JetBrains/Rider2022.2/resharper-host/temp/Rider/vAny/CoverageData/_DataStructuresAndAlgorithms.-1213886584/Snapshot/snapshot.utdcvr</s:String>
 	
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=57452f1b_002D0deb_002D48fe_002D91ef_002D101ad644fdd8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TwoSumHashTable_Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.TwoSumTest&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.MergeSortedArraysTest.MergeBruteForce_Test&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.MergeSortedArraysTest&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.IntersectionOfTwoArraysTest.IntersectBruteForce_Test&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.IntersectionOfTwoArraysTest.IntersectHashTable_Test&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.IntersectionOfTwoArraysTest&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.BuySellStockTest.MaxProfitBruteForce_Test&lt;/TestId&gt;
-    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.BuySellStockTest&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+  &lt;Solution /&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

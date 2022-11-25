@@ -24,14 +24,14 @@ public static class TwoSum
 
     public static int[] TwoSumHashTable(int[] array, int target)
     {
-        var hash = new Hashtable();
+        var hash = new Dictionary<int, int>();
         for (var i = 0; i < array.Length; i++)
         {
             var curr = array[i];
             var diff = target - curr;
-            if (hash.ContainsKey(diff) && hash[diff] != null)
+            if (hash.ContainsKey(diff))
             {
-                var index = (int) hash[diff];
+                var index = hash[diff];
                 return new[] { index, i };
             }
             
