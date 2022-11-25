@@ -4,7 +4,7 @@ public static class BuySellStock
 {
     public static int MaxProfitBruteForce(int[] prices)
     {
-        var max = 0;
+        var maxProfit = 0;
         for (var i = 0; i < prices.Length; i++)
         {
             var pivot = prices[i];
@@ -12,17 +12,14 @@ public static class BuySellStock
             {
                 var curr = prices[j];
                 var profit = curr - pivot;
-                if (profit > max)
-                {
-                    max = profit;
-                }
+                maxProfit = profit > maxProfit ? profit : maxProfit;
             }
         }
 
-        return max;
+        return maxProfit;
     }
 
-    public static int MaxProfitDynamicProgramming(int[] prices)
+    public static int MaxProfitDynamicProgramming(IEnumerable<int> prices)
     {
         var maxProfit = 0;
         var least = int.MaxValue;
