@@ -6,7 +6,6 @@ namespace DataStructures.Tests.Array;
 public class IntersectionOfTwoArraysTest
 {
     [Theory]
-    // [InlineData(new [] { }, new [] { }, new [] { })]
     [InlineData(new [] { 1, 2, 2, 1 }, new [] { 2, 2 }, new [] { 2, 2 })]
     [InlineData(new [] { 4, 9, 5 }, new [] { 9, 4, 9, 8, 4 }, new [] { 4, 9 })]
     [InlineData(new [] { 3, 1, 2 }, new [] { 1, 1 }, new [] { 1 })]

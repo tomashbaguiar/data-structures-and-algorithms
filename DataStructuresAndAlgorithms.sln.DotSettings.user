@@ -9,5 +9,7 @@
     &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.IntersectionOfTwoArraysTest.IntersectBruteForce_Test&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.IntersectionOfTwoArraysTest.IntersectHashTable_Test&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.IntersectionOfTwoArraysTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.BuySellStockTest.MaxProfitBruteForce_Test&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC::net6.0::DataStructures.Tests.Array.BuySellStockTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
