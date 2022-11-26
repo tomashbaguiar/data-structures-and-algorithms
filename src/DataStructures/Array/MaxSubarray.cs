@@ -7,7 +7,7 @@ public static class MaxSubarray
         return FindMaxSubarray(array, 0, array.Length - 1).Item3;
     }
 
-    private static (int, int, int) FindMaxSubarray(int[] array, int low, int high)
+    private static (int, int, int) FindMaxSubarray(IReadOnlyList<int> array, int low, int high)
     {
         if (high == low)
         {
@@ -32,7 +32,7 @@ public static class MaxSubarray
         return (crossLow, crossHigh, crossSum);
     }
 
-    private static (int, int, int) FindMaxCrossingSubarray(int[] array, int low, int mid, int high)
+    private static (int, int, int) FindMaxCrossingSubarray(IReadOnlyList<int> array, int low, int mid, int high)
     {
         var leftSum = int.MinValue;
         var sum = 0;
