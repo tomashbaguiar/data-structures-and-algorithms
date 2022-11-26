@@ -1,7 +1,7 @@
-using DataStructures.Matrix;
+using DataStructures.Array;
 using Xunit;
 
-namespace DataStructures.Tests.Matrix;
+namespace DataStructures.Tests.Array;
 
 public class ReshapeMatrixTest
 {

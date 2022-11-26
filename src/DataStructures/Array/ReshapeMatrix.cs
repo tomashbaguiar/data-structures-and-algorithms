@@ -1,4 +1,4 @@
-namespace DataStructures.Matrix;
+namespace DataStructures.Array;
 
 public static class ReshapeMatrix
 {
