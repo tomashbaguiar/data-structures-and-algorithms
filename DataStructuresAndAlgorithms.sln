@@ -4,9 +4,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{689010F8-ECF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C77050EA-E774-43C3-BF17-514233CD45DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures", "src\DataStructures\DataStructures.csproj", "{B9A6E6B4-92CC-4E4F-AF44-3E98CD5956FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.LeetCode", "src\leetcode\DataStructures.LeetCode\DataStructures.LeetCode.csproj", "{65E550D9-46AD-4A15-BF37-3897315DD6E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.Tests", "tests\DataStructures.Tests\DataStructures.Tests.csproj", "{9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTraining.Codility", "src\codility\DevTraining.Codility\DevTraining.Codility.csproj", "{C280921B-A958-4FC4-8473-ECC150B2A6A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTraining.Codility.Tests", "tests\codility\DevTraining.Codility.Tests\DevTraining.Codility.Tests.csproj", "{67872B26-1792-40D5-B1DD-BCA11D2AF53E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.LeetCode.Tests", "tests\leetcode\DataStructures.LeetCode.Tests\DataStructures.LeetCode.Tests.csproj", "{54E8B487-F78C-4F1E-B2A2-28B33552CE5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,17 +18,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B9A6E6B4-92CC-4E4F-AF44-3E98CD5956FD} = {689010F8-ECF0-45C0-978C-B0025F932A70}
-		{9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC} = {C77050EA-E774-43C3-BF17-514233CD45DA}
+		{65E550D9-46AD-4A15-BF37-3897315DD6E3} = {689010F8-ECF0-45C0-978C-B0025F932A70}
+		{C280921B-A958-4FC4-8473-ECC150B2A6A3} = {689010F8-ECF0-45C0-978C-B0025F932A70}
+		{67872B26-1792-40D5-B1DD-BCA11D2AF53E} = {C77050EA-E774-43C3-BF17-514233CD45DA}
+		{54E8B487-F78C-4F1E-B2A2-28B33552CE5F} = {C77050EA-E774-43C3-BF17-514233CD45DA}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B9A6E6B4-92CC-4E4F-AF44-3E98CD5956FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9A6E6B4-92CC-4E4F-AF44-3E98CD5956FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9A6E6B4-92CC-4E4F-AF44-3E98CD5956FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9A6E6B4-92CC-4E4F-AF44-3E98CD5956FD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9AAACAE8-6356-4A30-9FC0-8C76ABD4CADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E550D9-46AD-4A15-BF37-3897315DD6E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E550D9-46AD-4A15-BF37-3897315DD6E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E550D9-46AD-4A15-BF37-3897315DD6E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E550D9-46AD-4A15-BF37-3897315DD6E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C280921B-A958-4FC4-8473-ECC150B2A6A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C280921B-A958-4FC4-8473-ECC150B2A6A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C280921B-A958-4FC4-8473-ECC150B2A6A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C280921B-A958-4FC4-8473-ECC150B2A6A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67872B26-1792-40D5-B1DD-BCA11D2AF53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67872B26-1792-40D5-B1DD-BCA11D2AF53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67872B26-1792-40D5-B1DD-BCA11D2AF53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67872B26-1792-40D5-B1DD-BCA11D2AF53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E8B487-F78C-4F1E-B2A2-28B33552CE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E8B487-F78C-4F1E-B2A2-28B33552CE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E8B487-F78C-4F1E-B2A2-28B33552CE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E8B487-F78C-4F1E-B2A2-28B33552CE5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
