@@ -14,12 +14,6 @@ public static class BinaryGap
 
             if (c != '1') continue;
             
-            if (start == i)
-            {
-                start = i;
-                continue;
-            }
-            
             var count = i - start - 1;
             maxCount = count > maxCount ? count : maxCount;
             start = i;
