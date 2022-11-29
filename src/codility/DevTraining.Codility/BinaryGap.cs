@@ -6,6 +6,7 @@ public static class BinaryGap
     {
         var nBinString = Convert.ToString(n, 2);
 
+        // Dynamic sliding window algorithm
         var start = 0;
         var maxCount = 0;
         for (var i = 0; i < nBinString.Length; i++)
