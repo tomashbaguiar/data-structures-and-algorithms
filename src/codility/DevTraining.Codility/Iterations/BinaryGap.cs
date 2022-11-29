@@ -1,4 +1,4 @@
-﻿namespace DevTraining.Codility;
+﻿namespace DevTraining.Codility.Iterations;
 
 public static class BinaryGap
 {

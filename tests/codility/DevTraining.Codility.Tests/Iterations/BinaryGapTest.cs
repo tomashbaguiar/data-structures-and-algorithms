@@ -1,6 +1,7 @@
+using DevTraining.Codility.Iterations;
 using Xunit;
 
-namespace DevTraining.Codility.Tests;
+namespace DevTraining.Codility.Tests.Iterations;
 
 public class BinaryGapTest
 {

@@ -1,6 +1,7 @@
+using DevTraining.Codility.Arrays;
 using Xunit;
 
-namespace DevTraining.Codility.Tests;
+namespace DevTraining.Codility.Tests.Arrays;
 
 public class CyclicRotationTest
 {
