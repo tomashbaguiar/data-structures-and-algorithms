@@ -12,7 +12,7 @@ public class LinkedListCycleTest
     [InlineData(new int[] {}, -1, false)]
     public void HasCycle_Test(int[] list, int pos, bool expected)
     {
-        var head = LinkedListTestHelper.CreateHead(list);
+        var head = LinkedListTestHelper.CreateHeadFromList(list);
         head?.CreateCycle(pos);
 
         var result = LinkedListCycle.HasCycle(head);
@@ -27,7 +27,7 @@ public class LinkedListCycleTest
     [InlineData(new int[] {}, -1, false)]
     public void HasCycleFastSlow_Test(int[] list, int pos, bool expected)
     {
-        var head = LinkedListTestHelper.CreateHead(list);
+        var head = LinkedListTestHelper.CreateHeadFromList(list);
         head?.CreateCycle(pos);
 
         var result = LinkedListCycle.HasCycleFastSlow(head);

@@ -1,11 +1,12 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using DataStructures.LeetCode.LinkedList;
 
 namespace DataStructures.LeetCode.Tests.LinkedList;
 
 public static class LinkedListTestHelper
 {
-    public static ListNode? CreateHead(int[] list)
+    public static ListNode? CreateHeadFromList(int[] list)
     {
         if (list.Length == 0) return null;
         
@@ -35,5 +36,18 @@ public static class LinkedListTestHelper
         }
 
         curr.next = nodeAtPos;
+    }
+
+    public static int[] CreateListFromHead(ListNode? head)
+    {
+        var list = new List<int>();
+        var curr = head;
+        while (curr != null)
+        {
+            list.Add(curr.val);
+            curr = curr.next;
+        }
+
+        return list.ToArray();
     }
 }
