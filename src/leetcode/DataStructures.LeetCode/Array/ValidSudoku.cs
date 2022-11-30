@@ -26,7 +26,7 @@ public static class ValidSudoku
 
         return true;
     }
-
+    
     private static bool IsValidSubBoard(char[][] board, int row, int col)
     {
         var subHash = new HashSet<char>();
