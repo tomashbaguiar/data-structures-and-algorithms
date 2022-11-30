@@ -17,7 +17,7 @@ public static class TwoSum
             }
         }
 
-        return new int[] { };
+        return System.Array.Empty<int>();
     }
 
     public static int[] TwoSumHashTable(int[] array, int target)
@@ -37,6 +37,6 @@ public static class TwoSum
             hash.Add(curr, i);
         }
 
-        return new int[] { };
+        return System.Array.Empty<int>();
     }
 }
