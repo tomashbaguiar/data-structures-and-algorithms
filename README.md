@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-LeetCode challenges resolved
+LeetCode challenges and Codility study path resolved
 
 ## Data Structures
 
