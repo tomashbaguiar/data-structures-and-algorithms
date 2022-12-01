@@ -24,4 +24,22 @@ public static class TapeEquilibrium
 
         return min;
     }
+    
+    public static int OtherSolution(int[] array)
+    {
+        var len = array.Length - 1;
+        var left = 0;
+        var right = array.Sum();
+
+        var min = int.MaxValue;
+        for (var i = 0; i < len; i++)
+        {
+            left += array[i];
+            right -= array[i];
+            var diff = Math.Abs(left - right);
+            min = diff < min ? diff : min;
+        }
+
+        return min;
+    }
 }

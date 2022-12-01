@@ -13,4 +13,13 @@ public class TapeEquilibriumTest
         
         Assert.Equal(expected, result);
     }
+    
+    [Theory]
+    [InlineData(new[] { 3, 1, 2, 4, 3 }, 1)]
+    public void OtherSolution_Test(int[] array, int expected)
+    {
+        var result = TapeEquilibrium.OtherSolution(array);
+        
+        Assert.Equal(expected, result);
+    }
 }
