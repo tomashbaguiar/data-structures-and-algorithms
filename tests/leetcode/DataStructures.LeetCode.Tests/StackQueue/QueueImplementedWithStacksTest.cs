@@ -11,7 +11,6 @@ public class QueueImplementedWithStacksTest
         var queue = new MyQueue();
         queue.Push(1);
         queue.Push(2);
-
         var first = queue.Peek();
         var second = queue.Pop();
         var third = queue.Empty();
