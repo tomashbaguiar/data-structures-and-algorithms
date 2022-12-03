@@ -12,7 +12,7 @@ public class BinaryTreeTest
     {
         var root = listTree.Aggregate<int, TreeNode?>(null, BinaryTree.Add);
 
-        var result = BinaryTree.PreorderTraversal(root);
+        var result = BinaryTreeTraversalExtension.PreorderTraversal(root);
         
         Assert.Equal(expected.ToList(), result);
     }
@@ -23,7 +23,7 @@ public class BinaryTreeTest
     {
         var root = listTree.Aggregate<int, TreeNode?>(null, BinaryTree.Add);
 
-        var result = BinaryTree.PreorderTraversalIterative(root);
+        var result = BinaryTreeTraversalExtension.PreorderTraversalIterative(root);
         
         Assert.Equal(expected.ToList(), result);
     }
@@ -35,7 +35,7 @@ public class BinaryTreeTest
     {
         var root = listTree.Aggregate<int, TreeNode?>(null, BinaryTree.Add);
 
-        var result = BinaryTree.PostorderTraversal(root);
+        var result = BinaryTreeTraversalExtension.PostorderTraversal(root);
         
         Assert.Equal(expected.ToList(), result);
     }
@@ -47,7 +47,7 @@ public class BinaryTreeTest
     {
         var root = listTree.Aggregate<int, TreeNode?>(null, BinaryTree.Add);
 
-        var result = BinaryTree.PostorderTraversalIterative(root);
+        var result = BinaryTreeTraversalExtension.PostorderTraversalIterative(root);
         
         Assert.Equal(expected.ToList(), result);
     }
@@ -59,7 +59,7 @@ public class BinaryTreeTest
     {
         var root = listTree.Aggregate<int, TreeNode?>(null, BinaryTree.Add);
 
-        var result = BinaryTree.InorderTraversal(root);
+        var result = BinaryTreeTraversalExtension.InorderTraversal(root);
         
         Assert.Equal(expected.ToList(), result);
     }
@@ -71,7 +71,7 @@ public class BinaryTreeTest
     {
         var root = listTree.Aggregate<int, TreeNode?>(null, BinaryTree.Add);
 
-        var result = BinaryTree.InorderTraversalIterative(root);
+        var result = BinaryTreeTraversalExtension.InorderTraversalIterative(root);
         
         Assert.Equal(expected.ToList(), result);
     }
