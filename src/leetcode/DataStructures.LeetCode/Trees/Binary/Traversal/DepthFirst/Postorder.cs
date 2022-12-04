@@ -4,10 +4,10 @@ public static class Postorder
 {
     public static IList<int> Traversal(TreeNode? root)
     {
-        if (root == null) 
-            return new List<int>();
-
         var list = new List<int>();
+        if (root == null) 
+            return list;
+
         list.AddRange(Traversal(root.Left));
         list.AddRange(Traversal(root.Right));
         list.Add(root.Val);
