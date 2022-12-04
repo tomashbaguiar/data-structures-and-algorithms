@@ -2,17 +2,34 @@
 
 public static class Tree
 {
-    public static TreeNode Add(TreeNode? root, int val)
+    public static TreeNode Insert(TreeNode? root, int val)
     {
         if (root == null) return new TreeNode(val);
-
-        if (val < root.Val)
+        
+        var toVisit = new Queue<TreeNode>();
+        toVisit.Enqueue(root);
+        while (toVisit.Count != 0) 
         {
-            root.Left = Add(root.Left, val);
-            return root;
+            var temp = toVisit.Peek();
+            toVisit.Dequeue();
+ 
+            if (temp.Left == null) 
+            {
+                temp.Left = new TreeNode(val);
+                break;
+            }
+
+            toVisit.Enqueue(temp.Left);
+
+            if (temp.Right == null) 
+            {
+                temp.Right = new TreeNode(val);
+                break;
+            }
+
+            toVisit.Enqueue(temp.Right);
         }
 
-        root.Right = Add(root.Right, val);
         return root;
     }
 }
