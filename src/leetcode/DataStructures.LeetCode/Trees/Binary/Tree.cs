@@ -1,18 +1,18 @@
-﻿namespace DataStructures.LeetCode.Tree;
+﻿namespace DataStructures.LeetCode.Trees.Binary;
 
-public static class BinaryTree
+public static class Tree
 {
     public static TreeNode Add(TreeNode? root, int val)
     {
         if (root == null) return new TreeNode(val);
 
-        if (val < root.val)
+        if (val < root.Val)
         {
-            root.left = Add(root.left, val);
+            root.Left = Add(root.Left, val);
             return root;
         }
 
-        root.right = Add(root.right, val);
+        root.Right = Add(root.Right, val);
         return root;
     }
 }
