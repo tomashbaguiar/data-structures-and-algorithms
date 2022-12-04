@@ -1,9 +1,9 @@
 using System.Linq;
 using DataStructures.LeetCode.Trees.Binary;
-using DataStructures.LeetCode.Trees.Binary.Traversal;
+using DataStructures.LeetCode.Trees.Binary.Traversal.BreadthFirst;
 using Xunit;
 
-namespace DataStructures.LeetCode.Tests.Trees.Binary.Traversal;
+namespace DataStructures.LeetCode.Tests.Trees.Binary.Traversal.BreadthFirst;
 
 public class LevelOrderTest
 {

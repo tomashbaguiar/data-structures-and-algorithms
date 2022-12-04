@@ -1,4 +1,4 @@
-namespace DataStructures.LeetCode.Trees.Binary.Traversal;
+namespace DataStructures.LeetCode.Trees.Binary.Traversal.BreadthFirst;
 
 public static class LevelOrder
 {
