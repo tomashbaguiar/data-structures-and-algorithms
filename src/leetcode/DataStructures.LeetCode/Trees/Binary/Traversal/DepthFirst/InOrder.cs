@@ -4,10 +4,9 @@ public static class InOrder
 {
     public static IList<int> Traversal(TreeNode? root)
     {
-        if (root == null) 
-            return new List<int>();
-
         var list = new List<int>();
+        if (root == null) return list;
+        
         list.AddRange(Traversal(root.Left));
         list.Add(root.Val);
         list.AddRange(Traversal(root.Right));
