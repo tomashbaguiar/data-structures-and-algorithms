@@ -1,8 +1,9 @@
-﻿namespace DevTraining.Codility.CountingElements;
+namespace DevTraining.Codility.CountingElements;
 
 public static class MaxCounters
 {
-    public static int[] Solution(int[] array, int n)
+    // O(nm)
+    public static int[] NotEfficientSolution(int n, int[] array)
     {
         var counters = new int[n];
         var max = 0;
@@ -16,6 +17,7 @@ public static class MaxCounters
             }
 
             if (e != n + 1) continue;
+
             for (var j = 0; j < n; j++)
             {
                 counters[j] = max;
