@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{689010F8-ECF0-45C0-978C-B0025F932A70}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C77050EA-E774-43C3-BF17-514233CD45DA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C77050EA-E774-43C3-BF17-514233CD45DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructures.LeetCode", "src\leetcode\DataStructures.LeetCode\DataStructures.LeetCode.csproj", "{65E550D9-46AD-4A15-BF37-3897315DD6E3}"
 EndProject
