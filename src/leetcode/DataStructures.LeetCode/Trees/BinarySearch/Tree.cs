@@ -45,4 +45,16 @@ public static class Tree
 
         return root;
     }
+
+    public static TreeNode? Find(TreeNode? root, int val)
+    {
+        if (root == null) return null;
+        if (root.Val == val) return root;
+
+        var l = Find(root.Left, val);
+        if (l?.Val == val) return l;
+
+        var r = Find(root.Right, val);
+        return r?.Val == val ? r : null;
+    }
 }
