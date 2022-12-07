@@ -47,7 +47,7 @@ insertAtEnd(Node *head, int data) {
 }
 
 void
-insertAt(Node *head, int data, int pos) {
+insertAtPosition(Node *head, int data, int pos) {
     Node *newNode = (Node *) malloc(sizeof(Node));
     newNode->data = data;
     if (head == NULL)
