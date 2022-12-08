@@ -9,7 +9,8 @@ public static class SortColors
         var high = n - 1;
         while (high > 0)
         {
-            if (array[low] > array[high]) (array[low], array[high]) = (array[high], array[low]);
+            if (array[low] > array[high]) 
+                (array[low], array[high]) = (array[high], array[low]);
             
             if (high == low + 1)
             {
