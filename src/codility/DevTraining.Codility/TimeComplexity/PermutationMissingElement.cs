@@ -8,7 +8,7 @@ public static class PermutationMissingElement
         var count = 1;
         foreach (var e in ordArray)
         {
-            if (e != count) break;
+            if (e != count) return count;
             count++;
         }
 
