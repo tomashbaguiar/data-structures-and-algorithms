@@ -4,31 +4,25 @@ public static class NonOverlappingIntervals
 {
     public static int RemoveOverlapping(int[][] intervals)
     {
-        var qtd = Merge(intervals).Length;
-        return intervals.Length - qtd;
-    }
-
-    private static int[][] Merge(int[][] intervals)
-    {
         if (intervals.Length <= 1)
-            return intervals;
+            return 0;
 
-        System.Array.Sort(intervals, (i1, i2) => i1[0].CompareTo(i2[0]));
-
-        var result = new List<int[]>();
-        var newInterval = intervals[0];
-        result.Add(newInterval);
-        foreach (var interval in intervals)
+        System.Array.Sort(intervals, (i1, i2) => i1[1].CompareTo(i2[1]));
+        var count = 0;
+        var lastEnd = intervals[0][1];
+        for (var i = 1; i < intervals.Length; i++)
         {
-            if (interval[0] < newInterval[1])
+            var begin = intervals[i][0];
+            var end = intervals[i][1];
+            if (begin < lastEnd)
             {
-                result.Add(newInterval);
+                count++;
                 continue;
-            }  
-            
-            newInterval = interval;
+            }
+
+            lastEnd = end;
         }
 
-        return result.ToArray();
+        return count;
     }
 }
